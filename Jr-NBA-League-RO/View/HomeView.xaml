@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="Jr_NBA_League_RO.View.HomeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Jr_NBA_League_RO.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Margin="50,50,50,50">
+        <Viewbox Stretch="Uniform">
+            <Grid Width="336" Height="167" HorizontalAlignment="Center" VerticalAlignment="Center">
+                
+                <Label Content="  Jr. NBA League Romania"
+                       HorizontalContentAlignment="Center"
+                       VerticalContentAlignment="Center"
+                       FontFamily="OCR A Extended"
+                       Foreground="Beige"
+                       FontSize="17" />
+
+                <Image Source="C:\Users\Bogdan Rebeles\Desktop\Jr-NBA-League-RO\Jr-NBA-League-RO\Data\Photos\bascketballPlayer-removebg-preview.png" 
+                       Margin="-2,46,244,31"/>
+               
+                
+            </Grid>
+        </Viewbox>
+
+
+    </Grid>
+</UserControl>
