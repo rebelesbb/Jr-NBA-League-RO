@@ -17,7 +17,7 @@
                        Foreground="Beige"
                        FontSize="17" />
 
-                <Image Source="C:\Users\Bogdan Rebeles\Desktop\Jr-NBA-League-RO\Jr-NBA-League-RO\Data\Photos\bascketballPlayer-removebg-preview.png" 
+                <Image Source="/Data/Photos/bascketballPlayer-removebg-preview.png"
                        Margin="-2,46,244,31"/>
                
                 

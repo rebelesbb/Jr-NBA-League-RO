@@ -10,11 +10,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Data\Photos\bascketballPlayer-removebg-preview.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Domain\Validators\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Npgsql" Version="9.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Data\Photos\bascketballPlayer-removebg-preview.png" />
   </ItemGroup>
 
 </Project>
